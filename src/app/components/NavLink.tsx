@@ -1,0 +1,10 @@
+import Link from "next/link";
+
+const NavLink = ({ href, compName }) => {
+  return (
+    <Link href={href} className="block py-2 pl-2 pr-2">
+      {compName}
+    </Link>
+  );
+};
+export default NavLink;
