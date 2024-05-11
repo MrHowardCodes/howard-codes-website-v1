@@ -1,5 +1,5 @@
 import * as React from "react";
-const SVGComponent = (props) => (
+const SVGComponent = (props: any) => (
   <svg
     viewBox="0 0 1279 24"
     fill="none"

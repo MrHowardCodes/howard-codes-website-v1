@@ -1,5 +1,5 @@
 import * as React from "react";
-const SVGComponent = (props) => (
+const SVGComponent = (props: any) => (
   <svg
     id="Layer_2"
     data-name="Layer 2"

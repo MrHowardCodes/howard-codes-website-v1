@@ -1,5 +1,5 @@
 import * as React from "react";
-const TailwindIcon = (props) => (
+const TailwindIcon = (props: any) => (
   <svg
     width={60}
     height={60}
