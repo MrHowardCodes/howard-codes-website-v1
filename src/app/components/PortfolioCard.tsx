@@ -9,7 +9,7 @@ const PortfolioCard = ({
   gitUrl,
   previewUrl,
   techList,
-}) => {
+}: any) => {
   return (
     <div className="container drop-shadow-xl">
       <div

@@ -78,7 +78,7 @@ const PortfolioSection = () => {
   const howocoSky = "border-[#27bcd8]";
   const howocoPurp = "border-[#957eba]";
   const [tag, setTag] = useState("All");
-  const tagChange = (newTag) => {
+  const tagChange = (newTag: any) => {
     setTag(newTag);
   };
 

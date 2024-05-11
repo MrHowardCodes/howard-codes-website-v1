@@ -1,6 +1,6 @@
 import React from "react";
 
-const PortfolioTag = ({ name, onClick, isSelected, tagColor }) => {
+const PortfolioTag = ({ name, onClick, isSelected, tagColor }: any) => {
   const buttonStyles = isSelected ? "bg-black border-black" : "bg-[#d9d9d9]";
   return (
     <button
