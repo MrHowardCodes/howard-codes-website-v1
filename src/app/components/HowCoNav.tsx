@@ -41,7 +41,7 @@ const HowCoNav = () => {
 
   return (
     <nav className="absolute mx-auto top-0 left-0 right-0 z-10">
-      <div className="flex flex-wrap items-center justify-between mx-auto p-8">
+      <div className="flex flex-nowrap items-center justify-between mx-auto p-8">
         <Link href={"/"}>
           <motion.div
             initial={{ x: "-100%", opacity: 0, scale: 0 }}
