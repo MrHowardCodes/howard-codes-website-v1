@@ -9238,6 +9238,10 @@ body {
     flex-direction: row;
   }
 
+  .md\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
   .md\:items-center {
     align-items: center;
   }
@@ -9274,6 +9278,11 @@ body {
 
   .md\:p-1 {
     padding: 0.25rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 

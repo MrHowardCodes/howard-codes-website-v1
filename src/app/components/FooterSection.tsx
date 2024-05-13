@@ -42,7 +42,7 @@ const FooterSection = () => {
   return (
     <section className="p-16">
       <div id="footer" className="container ">
-        <div className="flex flex-wrap items-center justify-center space-x-10 text-3xl p-10 cursor-pointer">
+        <div className="flex flex-nowrap flex-row space-x-10 items-center justify-center text-xl md:text-3xl p-10 cursor-pointer">
           <Link scroll={true} href="#home" className=" hover:text-[#d9d9d9]">
             Home
           </Link>
