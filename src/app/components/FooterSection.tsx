@@ -88,7 +88,7 @@ const FooterSection = () => {
             </li>
           </ul>
         </div>
-        <p className="flex text-sx items-center justify-center">
+        <p className="flex text-xs md:text-sm items-center justify-center">
           ©{year} Web By Howard LLC. All rights reserved
         </p>
       </div>
