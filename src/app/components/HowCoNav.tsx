@@ -57,7 +57,7 @@ const HowCoNav = () => {
             />
           </motion.div>
         </Link>
-        <div className="mobile-menu relative md:hidden">
+        <div className="mobile-menu pl-3 relative md:hidden">
           {!navbarOpen ? (
             <button onClick={() => setNavbarOpen(true)}>
               <Bars3Icon className=" h-10 w-10 text-[#deafd1]" />

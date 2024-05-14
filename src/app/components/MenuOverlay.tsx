@@ -3,7 +3,7 @@ import NavLink from "@/app/components/NavLink";
 
 const mobileNavLinks = [
   {
-    path: "https://mrhoward.net",
+    path: "/doc/resume.pdf",
     compName: "Resume",
   },
   {
