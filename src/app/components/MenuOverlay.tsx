@@ -3,6 +3,10 @@ import NavLink from "@/app/components/NavLink";
 
 const mobileNavLinks = [
   {
+    path: "https://vicers.net",
+    compName: "Blog",
+  },
+  {
     path: "/doc/resume.pdf",
     compName: "Resume",
   },
@@ -27,7 +31,7 @@ const mobileNavLinks = [
 
 const MenuOverlay = () => {
   return (
-    <ul className="flex flex-col py-4 items-center bg-slate-900 bg-opacity-50 text-lg ">
+    <ul className="flex flex-col py-4 items-center bg-slate-900 bg-opacity-50 text-lg text-white">
       {mobileNavLinks.map((link, index) => (
         <li key={index} className="hover:font-black hover:border-white">
           <NavLink href={link.path} compName={link.compName} />

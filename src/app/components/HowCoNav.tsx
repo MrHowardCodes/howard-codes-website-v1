@@ -8,11 +8,16 @@ import LinkedInIcon from "./icons/LinkedinIcn";
 import TwitterIcon from "./icons/TwitterIcn";
 import ResumeIcon from "./icons/ResumeIcn";
 import GithubIcon from "./icons/GithubIcn";
+import BlogIcon from "./icons/BlogIcn";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 
 const navLinks = [
+  {
+    path: "https://vicers.net",
+    compName: <BlogIcon />,
+  },
   {
     path: "/doc/resume.pdf",
     compName: <ResumeIcon />,

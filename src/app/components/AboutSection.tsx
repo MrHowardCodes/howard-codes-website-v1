@@ -4,8 +4,6 @@ import styles from "@/app/styles/howco-text.module.scss";
 import styles2 from "@/app/styles/howco.module.css";
 import FluerDeLis from "@/app/components/graphics/FluerDeLis";
 import NolaDivider from "@/app/components/graphics/NolaDivider";
-import { ArrowDownCircleIcon } from "@heroicons/react/24/solid";
-import Link from "next/link";
 
 const AboutSection = () => {
   return (

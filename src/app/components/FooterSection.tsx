@@ -6,6 +6,7 @@ import LinkedInIcon from "./icons/LinkedinIcn";
 import TwitterIcon from "./icons/TwitterIcn";
 import ResumeIcon from "./icons/ResumeIcn";
 import GithubIcon from "./icons/GithubIcn";
+import BlogIcon from "./icons/BlogIcn";
 import NavLink from "./NavLink";
 import ReactIcon from "./icons/ReactIcn";
 import TailwindIcon from "./icons/Tailwind";
@@ -15,6 +16,10 @@ const today = new Date();
 const year = today.getFullYear();
 
 const navLinks = [
+  {
+    path: "https://vicers.net",
+    compName: <BlogIcon />,
+  },
   {
     path: "/doc/resume.pdf",
     compName: <ResumeIcon />,
@@ -42,21 +47,17 @@ const FooterSection = () => {
   return (
     <section className="p-16">
       <div id="footer" className="container ">
-        <div className="flex flex-nowrap flex-row space-x-10 items-center justify-center text-xl md:text-3xl p-10 cursor-pointer">
-          <Link scroll={true} href="#home" className=" hover:text-[#d9d9d9]">
+        <div className="flex flex-nowrap flex-row space-x-10 items-center justify-center text-xl md:text-3xl p-10 cursor-pointer text-white">
+          <Link href="#home" className=" hover:text-[#d9d9d9]">
             Home
           </Link>
-          <Link scroll={true} href="#about" className=" hover:text-[#d9d9d9]">
+          <Link href="#about" className=" hover:text-[#d9d9d9]">
             About
           </Link>
-          <Link scroll={true} href="#tools" className=" hover:text-[#d9d9d9]">
+          <Link href="#tools" className=" hover:text-[#d9d9d9]">
             Tools
           </Link>
-          <Link
-            scroll={true}
-            href="#portfolio"
-            className=" hover:text-[#d9d9d9]"
-          >
+          <Link href="#portfolio" className=" hover:text-[#d9d9d9]">
             Portfolio
           </Link>
         </div>
@@ -74,8 +75,8 @@ const FooterSection = () => {
           <hr className="bg-white h-[3px] w-1/2"></hr>
         </div>
 
-        <div className="flex flex-row space-x-1 items-center justify-center">
-          <h1 className="text-3xl">Made with </h1>
+        <div className="flex flex-row space-x-1 items-center justify-center text-white">
+          <h1 className="text-3xl text-nowrap">Made with </h1>
           <ul className="flex pl-4 space-x-1">
             <li>
               <ReactIcon className="h-[40px] w-[40px]" />
@@ -88,7 +89,7 @@ const FooterSection = () => {
             </li>
           </ul>
         </div>
-        <p className="flex text-xs md:text-sm items-center justify-center">
+        <p className="flex text-xs md:text-sm items-center justify-center text-white">
           ©{year} Web By Howard LLC. All rights reserved
         </p>
       </div>

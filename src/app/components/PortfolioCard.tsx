@@ -1,5 +1,5 @@
 import React from "react";
-import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/solid";
+import { PencilSquareIcon, EyeIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
 const PortfolioCard = ({
@@ -21,7 +21,7 @@ const PortfolioCard = ({
             href={gitUrl}
             className="h-14 w-14 border-2 relative rounded-full border-[#d9d9d9] hover:border-white group/link"
           >
-            <CodeBracketIcon className="h-10 w-10 text-[#d9d9d9] absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:text-[#957eba]" />
+            <PencilSquareIcon className="h-10 w-10 text-[#d9d9d9] absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:text-[#957eba]" />
           </Link>
           <Link
             href={previewUrl}

@@ -12,7 +12,7 @@ import FooterSection from "./components/FooterSection";
 
 export default function Home() {
   return (
-    <main className="flex h-[150vh] flex-col w-screen lg:h-screen hero-image bg-center bg-cover bg-[url('/howco-hero-bg.jpg')]">
+    <main className="flex h-[180vh] flex-col w-screen lg:h-screen hero-image bg-center bg-cover bg-[url('/howco-hero-bg.jpg')]">
       <HowCoNav />
       <div className="container mt-36 mx-auto w-full">
         <HowCoHero />
@@ -22,7 +22,7 @@ export default function Home() {
       </div>
       <div className="mx-auto w-full">
         <AboutSection />
-        <div className="bg-spacy bg-cover h-auto z-2">
+        <div className="bg-spacy bg-cover h-auto z-2 bg-black">
           <FrontToolsSection />
         </div>
         <div id={styles.divider}>
@@ -40,7 +40,7 @@ export default function Home() {
         <div className="rotate-180 mt-[-1px]">
           <SectionDivider1 />
         </div>
-        <div className="bg-spacy bg-cover h-auto">
+        <div className="bg-spacy bg-cover h-auto bg-black">
           <FooterSection />
         </div>
       </div>
