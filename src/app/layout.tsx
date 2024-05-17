@@ -42,7 +42,9 @@ export default function RootLayout({
           }}
         ></Script>
       </head>
-      <body className={` ${MroundedPlus.variable} font-sans overflow-x-hidden`}>
+      <body
+        className={` ${MroundedPlus.variable} font-sans overflow-x-hidden bg-black`}
+      >
         {children}
       </body>
     </html>

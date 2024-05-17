@@ -12,7 +12,7 @@ import FooterSection from "./components/FooterSection";
 
 export default function Home() {
   return (
-    <main className="flex h-[180vh] flex-col w-screen lg:h-screen hero-image bg-center bg-cover bg-[url('/howco-hero-bg.jpg')]">
+    <main className="flex h-[160vh] flex-col w-screen md:max-content hero-image bg-center bg-cover bg-[url('/howco-hero-bg.jpg')]">
       <HowCoNav />
       <div className="container mt-36 mx-auto w-full">
         <HowCoHero />
