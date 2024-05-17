@@ -20,9 +20,9 @@ export default function Home() {
       <div id={styles.divider}>
         <SectionDivider1 />
       </div>
-      <div className="mx-auto w-full">
+      <div className="mx-auto w-full bg-black">
         <AboutSection />
-        <div className="bg-spacy bg-cover h-auto z-2 bg-black">
+        <div className="bg-spacy bg-cover h-auto z-2">
           <FrontToolsSection />
         </div>
         <div id={styles.divider}>
