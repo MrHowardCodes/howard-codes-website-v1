@@ -1,1 +1,9 @@
+.next
 node_modules
+.cache
+.vscode
+out
+.env*
+!.env.example  # Include the example .env file
+public/uploads  # Or whatever your uploads directory is
+uploads
