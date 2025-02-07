@@ -15,17 +15,11 @@ const AboutSection = () => {
             className="p-8 text-2xl font-normal whitespace-break-spaces space-y-14  mt-4 lg:mt-0 text-left z-1"
           >
             <p>
-              I'm an experienced full-stack developer from New Orleans,
-              Louisiana with a solid background in online marketing and a
-              sprinkle of IT experience on top. I enjoy leveraging my creativity
-              to build robust and unique online experiences.
+            As a seasoned full-stack developer from New Orleans, Louisiana, I bring a unique blend of skills. My background encompasses not only digital marketing expertise but also a deep understanding of cloud infrastructure and DevOps practices.
             </p>
 
             <p>
-              I started my journey in 2008 during the height of the "Myspace
-              Era" as a custom profile layout designer/developer, and i have
-              looked back. My hobbies include Music Composition, Swimming, VR
-              Development, Artificial Intelligence(AI) and Traveling.
+            My development journey began in 2008, during the vibrant "Myspace Era," where I honed my skills as a custom profile layout designer and developer. Since then, I've been immersed in the entire creative process, from initial planning and meticulous execution to the ultimate satisfaction of delivering a polished final product.
             </p>
           </div>
         </div>

@@ -19,7 +19,7 @@ const navLinks = [
     compName: <BlogIcon />,
   },
   {
-    path: "/doc/resume.pdf",
+    path: "/doc/cv.pdf",
     compName: <ResumeIcon />,
   },
   {

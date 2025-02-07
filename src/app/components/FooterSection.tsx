@@ -21,7 +21,7 @@ const navLinks = [
     compName: <BlogIcon />,
   },
   {
-    path: "/doc/resume.pdf",
+    path: "/doc/cv.pdf",
     compName: <ResumeIcon />,
   },
   {
@@ -46,7 +46,7 @@ const navLinks = [
 const FooterSection = () => {
   return (
     <section className="p-16">
-      <div id="footer" className="container ">
+      <div id="footer" className="container mx-auto">
         <div className="flex flex-nowrap flex-row space-x-10 items-center justify-center text-xl md:text-3xl p-10 cursor-pointer text-white">
           <Link href="#home" className=" hover:text-[#d9d9d9]">
             Home

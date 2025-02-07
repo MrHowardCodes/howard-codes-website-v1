@@ -47,13 +47,13 @@ const HowCoHero = () => {
             <span className={textstyles.gradientwipe}>
               <TypeAnimation
                 sequence={[
-                  "Full-Stack Engineer",
+                  "Full-Stack Developer",
                   1000,
                   "Digital Marketer",
                   1000,
-                  "UI/UX Designer",
+                  "Web Designer",
                   1000,
-                  "VR Enthusiast",
+                  "Cloud Engineer",
                   1000,
                 ]}
                 wrapper="span"
